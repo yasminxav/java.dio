@@ -41,7 +41,17 @@ public class Operadores {
         // Exemplo Curioso
         String nomeUm = "YASMIN";
         String nomeDois = new String("YASMIN");
-            System.out.println(nomeUm.equals(nomeDois));
+           // System.out.println(nomeUm.equals(nomeDois));
 
+        // Operadores Lógicos
+        boolean condicao1 = true;
+        boolean condicao2 = true;
+        if (condicao1 && condicao2) {
+            System.out.println("as duas condições são verdadeiras");
+        }
+        if (condicao1 || condicao2) {
+            System.out.println("umas das condições é verdadeira");
+        }
+        
     }
 }
